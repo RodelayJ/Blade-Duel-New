@@ -1,0 +1,26 @@
+body {
+  background-color: #111;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+  text-align: center;
+}
+#game-ui {
+  margin-top: 1rem;
+}
+button {
+  background-color: #222;
+  color: #66fcf1;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  margin: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #333;
+}
+#dungeon-log, #player-stats, #enemy-display {
+  margin-top: 1rem;
+  min-height: 3rem;
+}
